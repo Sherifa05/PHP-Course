@@ -43,7 +43,7 @@ if(isset($_POST['login'])){
             </div>
             <div class="mb-3">
                 <label for="password">Password</label>
-                <input type="text" name="password" placeholder="password" class="form-control" required>
+                <input type="password" name="password" placeholder="password" class="form-control" required>
             </div>
             <div class="d-flex justify-content-center">
                 <button class="btn btn-secondary" type="submit" name="login">Login</button>

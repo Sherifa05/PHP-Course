@@ -2,8 +2,8 @@
 <?php
 $database_username='mohamed';
 $database_password=123;
-$show= false;  #lama a3mel login ha5lyh b true
-$message=""; #haysheel el message el heya incorrect username aw password aw keda
+$show= false;
+$message="";
 if(isset($_POST['login'])){
     $username=$_POST['username'];
     $password=$_POST['password'];
